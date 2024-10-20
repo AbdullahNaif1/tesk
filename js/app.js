@@ -49,4 +49,8 @@ function displayTasks() {
 if (window.location.pathname.includes('tasks.html')) {
     displayTasks();
 }
-
+ javascript
+   const client = contentful.createClient({
+     space: '0udy91v3vaf4',
+     accessToken: 'vASXq6tvdZfaWuK0w61LtcoX-AcaJGRCUqjyLA94yzY'
+   });
